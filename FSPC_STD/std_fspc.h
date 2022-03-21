@@ -5,4 +5,9 @@
 #define true 1
 #define false 0
 
+#define object void
+
+#include "io_fspc.h"
+#include "algorithms_fspc.h"
+
 #endif

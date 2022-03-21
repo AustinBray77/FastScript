@@ -4,8 +4,8 @@
 #define MAX_INPUT_LEN 10000
 
 #include "std.h"
-#include "fspc_std.h"
-#include "fspc_algorithms.h"
+#include "std_fspc.h"
+#include "algorithms_fspc.h"
 
 #pragma region Output
 void print_str(char *s)

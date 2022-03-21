@@ -34,7 +34,7 @@ char *concatstr(char *a, char *b)
 char *salloc(size_t size)
 {
     char *output;
-    output = malloc(size);
+    output = (char *)malloc(size);
 
     if (output == NULL)
     {
